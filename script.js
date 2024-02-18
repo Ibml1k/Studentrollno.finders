@@ -4,7 +4,7 @@ function generateGreeting() {
     if (studentName && schoolName) {
         document.getElementById("inputContainer").style.display = "none";
         document.getElementById("greetingContainer").style.display = "block";
-        document.getElementById("greeting").innerText = "Kanjar, " + studentName + "!";
+        document.getElementById("greeting").innerText = "Hey, " + studentName + "!";
         var audio = document.getElementById("backgroundAudio");
         audio.play();
         audio.loop = true; // Loop the audio
